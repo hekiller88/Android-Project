@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cosc426.assign33encrypttext.MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <RelativeLayout>
+
+            <EditText
+                android:id="@+id/input_text"
+                style="@style/InputStyle"
+                android:layout_centerHorizontal="true"
+                android:width="250dp"
+                android:height="250dp"
+                android:maxLength="200"
+                android:hint="200 chars limits"/>
+
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:gravity="center">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/encrypt"
+                style = "@style/ButtonStyle"
+                android:text="Encrypt"
+                android:textAllCaps="false"
+                android:onClick="encrypt"/>
+            <Button
+                android:id="@+id/decrypt"
+                style = "@style/ButtonStyle"
+                android:text="Decrypt"
+                android:textAllCaps="false"
+                android:clickable="false"
+                android:onClick="decrypt"/>
+            <Button
+                android:id="@+id/keyChange"
+                style = "@style/ButtonStyle"
+                android:text="Key Change"
+                android:textAllCaps="false"
+                android:onClick="keyChange"/>
+        </LinearLayout>
+
+    </TableRow>
+
+</TableLayout>

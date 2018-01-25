@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cosc426.assign34direction.WestActivity">
+
+    <TextView
+        style = "@style/LabelStyle"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="from West"/>
+
+    <TextView
+        style = "@style/LabelStyle"
+        android:layout_width="match_parent"
+        android:text="1. Via Geddes Ave"/>
+
+    <TextView
+        style = "@style/LabelStyle"
+        android:layout_width="match_parent"
+        android:text="2. Via Washtenaw Ave"/>
+
+    <TextView
+        style = "@style/LabelStyle"
+        android:layout_width="match_parent"
+        android:text="3. Via Geddes Ave and E Huron Rive Dr"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            style = "@style/ButtonStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:text="Back"
+            android:onClick="back"/>
+    </RelativeLayout>
+
+</LinearLayout>
