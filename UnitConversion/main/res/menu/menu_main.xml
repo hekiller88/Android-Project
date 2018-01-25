@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cosc426.assign35unitconversion.MainActivity">
+    <item
+        android:id="@+id/menu_mile_kilometer"
+        android:title="mile / kilometer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_feet_meter"
+        android:title="feet / meter"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_inch_centimeter"
+        android:title="inch / centimeter"
+        app:showAsAction="never" />
+</menu>

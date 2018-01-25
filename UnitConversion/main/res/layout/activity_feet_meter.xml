@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cosc426.assign35unitconversion.FeetMeterActivity">
+
+    <TableRow
+        android:layout_marginTop="50dp"
+        android:weightSum="2">
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Feet"/>
+        <EditText
+            android:id="@+id/input_feet"
+            style="@style/InputStyle"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_marginLeft="10dp"/>
+    </TableRow>
+
+    <TableRow
+        android:weightSum="2">
+        <TextView
+            style="@style/LabelStyle"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="Meter"/>
+        <EditText
+            android:id="@+id/input_meter"
+            style="@style/InputStyle"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"/>
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="back"
+            android:onClick="back"/>
+
+    </RelativeLayout>
+
+</TableLayout>
+

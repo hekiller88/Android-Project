@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cosc426.assign36sudokufilesl.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/sudoku"
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="new"
+            android:layout_weight="1"
+            android:onClick="newSudoku"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="Save"
+            android:layout_weight="1"
+            android:onClick="saveSudoku"/>
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="Retrieve"
+            android:layout_weight="1"
+            android:onClick="retrieveSudoku"/>
+
+    </LinearLayout>
+</LinearLayout>
