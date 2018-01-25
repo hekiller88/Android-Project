@@ -2,6 +2,8 @@
 
 ## Intro
 
+These are the bunch of practice projects for learning Android Development.
+
 Enviroment
   - Android Studio
   - Java
