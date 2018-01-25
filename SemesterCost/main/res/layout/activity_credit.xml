@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cosc426.assign32semestercost.CreditActivity">
+
+    <TableRow
+        android:layout_marginTop="100dp"
+        android:gravity="center">
+
+        <TextView
+            style = "@style/LabelStyle"
+            android:text="Enter the number of Credits"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/input_credits"
+            style = "@style/InputStyle"
+            android:inputType="number"/>
+    </TableRow>
+
+    <TableLayout
+        android:layout_marginTop = "100dp">
+        <TableRow
+            android:gravity="center">
+            <Button
+                style = "@style/ButtonStyle"
+                android:text="Next"
+                android:onClick="next"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <Button
+                style = "@style/ButtonStyle"
+                android:text="back"
+                android:onClick="back"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+</TableLayout>

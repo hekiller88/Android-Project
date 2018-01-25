@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cosc426.assign32semestercost.LivingActivity">
+
+    <TableRow
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+        <TextView
+            style="@style/LabelStyle"
+            android:text="Living Expense: "/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+        <LinearLayout
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/dorm"
+                style="@style/CheckBoxStyle"
+                android:layout_width="200dp"
+                android:text="Dorm\n$1000"/>
+            <CheckBox
+                android:id="@+id/dinning"
+                android:layout_marginTop="10dp"
+                style="@style/CheckBoxStyle"
+                android:layout_width="200dp"
+                android:text="Dinning\n$500"/>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableLayout
+        android:layout_marginTop = "30dp">
+        <TableRow
+            android:gravity="center">
+            <Button
+                style = "@style/ButtonStyle"
+                android:text="Next"
+                android:onClick="next"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <Button
+                style = "@style/ButtonStyle"
+                android:text="back"
+                android:onClick="back"/>
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>

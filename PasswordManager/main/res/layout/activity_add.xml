@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cosc426.assign37passwordmanager.AddActivity">
+
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:weightSum="2">
+        <TextView
+            style = "@style/LabelStyle"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:text="Site Name" />
+        <EditText
+            android:id="@+id/input_place"
+            style="@style/InputStyle"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:layout_weight="1.5"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:weightSum="2">
+        <TextView
+            style = "@style/LabelStyle"
+            android:layout_marginLeft="10dp"
+            android:layout_weight=".5"
+            android:text="Password" />
+        <EditText
+            android:id="@+id/input_password"
+            style="@style/InputStyle"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:layout_weight="1.5"/>
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/button_add_submit"
+            style="@style/ButtonStyle"
+            android:text="Submit"
+            android:onClick="submit"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="match_parent">
+        <Button
+            style="@style/ButtonStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:text="Back"
+            android:onClick="back"/>
+    </RelativeLayout>
+
+</TableLayout>

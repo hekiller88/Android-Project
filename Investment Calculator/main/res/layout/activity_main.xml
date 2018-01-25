@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cosc426.assign31.MainActivity">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="Current Principal"/>
+
+        <EditText
+            android:id = "@+id/currentPrincipal"
+            style="@style/InputStyle"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="Annual Addition" />
+
+        <EditText
+            android:id="@+id/annualAddition"
+            style="@style/InputStyle" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="Number of Years"/>
+
+        <EditText
+            android:id = "@+id/years"
+            style="@style/InputStyle"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/LabelStyle"
+            android:text="Investment Rate"/>
+
+        <EditText
+            android:id = "@+id/rates"
+            style="@style/InputStyle"/>
+
+    </TableRow>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+        <Button
+            style="@style/ButtonStyle"
+            android:text="Submit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:onClick="submit"/>
+    </RelativeLayout>
+
+
+
+</TableLayout>
+
