@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cosc426.assign38expensesmanager.ViewPriceActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_marginTop="30dp">
+
+    </ScrollView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout android:layout_margin="10dp">
+
+            <TextView
+                style="@style/LabelStyle"
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Price" />
+        </RelativeLayout>
+
+
+        <TableRow
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/input_price_lower"
+                style="@style/InputStyle"
+                android:layout_weight="1"
+                android:hint="lower"
+                android:maxLines="1"
+                android:width="110dp"
+                android:scrollHorizontally="true" />
+
+            <EditText
+                android:id="@+id/input_price_upper"
+                style="@style/InputStyle"
+                android:layout_weight="1"
+                android:hint="upper"
+                android:maxLines="1"
+                android:width="110dp"
+                android:scrollHorizontally="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:minWidth="110dp"
+                android:onClick="submit"
+                android:text="submit" />
+
+            <Button
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:minWidth="110dp"
+                android:onClick="back"
+                android:text="Back" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

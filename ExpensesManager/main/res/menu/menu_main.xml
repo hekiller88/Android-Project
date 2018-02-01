@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cosc426.assign38expensesmanager.MainActivity">
+    <item
+        android:id="@+id/menu_add"
+        android:title="Add"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_delte"
+        android:title="Delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_viewByName"
+        android:title="View by Name"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_viewByPrice"
+        android:title="View by Price"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_viewByDate"
+        android:title="View by Date"
+        app:showAsAction="never" />
+
+</menu>
