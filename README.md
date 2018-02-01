@@ -16,10 +16,10 @@ Enviroment
   
   I only include the most import files which are located in `../app/src/main`.
   
-  These files included:
-      - AndroidMainfest.xml
-      - Java Files (modulo part)
-      - Resouce File(picture, sounds, layout...)
+  These files included
+    - AndroidMainfest.xml
+    - Java Files (modulo part)
+    - Resouce File(picture, sounds, layout...)
   
   
 
