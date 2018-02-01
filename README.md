@@ -12,14 +12,14 @@ Enviroment
 
 ## Installation
 
-  Since Android Studio will automatically generate lots of files. 
+Since Android Studio will automatically generate lots of files. 
   
-  I only include the most import files which are located in `../app/src/main`.
+I only include the most import files which are located in `../app/src/main`.
   
-  These files included
-    - AndroidMainfest.xml
-    - Java Files (modulo part)
-    - Resouce File(picture, sounds, layout...)
+These files includes: 
+- AndroidMainfest.xml
+- Java Files (modulo part)
+- Resouce File(picture, sounds, layout...)
   
   
 
