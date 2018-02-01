@@ -5,9 +5,9 @@
 These are the bunch of practice projects for learning Android Development.
 
 Enviroment
-  - Android Studio
-  - Java
-  - SQLite DataBase
+  - __Android Studio__
+  - __Java__
+  - __SQLite DataBase__
 
 
 ## Installation
